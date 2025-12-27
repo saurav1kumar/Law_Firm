@@ -1,0 +1,97 @@
+.careers-page {
+  padding-top: 0;
+  margin-top: -120px; /* Offset the App.css margin-top */
+}
+
+@media (max-width: 768px) {
+  .careers-page {
+    margin-top: -100px;
+  }
+}
+
+.careers-hero {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: var(--white);
+  padding: 120px 0 80px;
+  text-align: center;
+}
+
+.careers-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: var(--accent-color);
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+
+.careers-content {
+  padding: 80px 0;
+}
+
+.careers-text {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.careers-text h2 {
+  font-size: 2rem;
+  margin: 40px 0 20px;
+  color: var(--primary-color);
+}
+
+.careers-text h2:first-of-type {
+  margin-top: 0;
+}
+
+.careers-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.careers-text a {
+  color: var(--accent-color);
+  transition: color 0.3s ease;
+}
+
+.careers-text a:hover {
+  color: var(--primary-color);
+}
+
+.benefits {
+  margin-top: 40px;
+  padding: 30px;
+  background-color: var(--bg-light);
+  border-radius: 8px;
+}
+
+.benefits ul {
+  list-style: disc;
+  padding-left: 30px;
+  margin-top: 15px;
+}
+
+.benefits li {
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .careers-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}
+
